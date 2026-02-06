@@ -13,14 +13,14 @@ Files:
 ## Data format (CSV)
 `Data_Monthly_1980_2020.csv` contains the following columns (A–J):
 - A `data`
-- B `snowmelt_sum_mm`
+- B `snowmelt`
 - C `pet`
-- D `total_precipitation_sum_mm`
-- E `surface_sensible_heat_flux_sum_MJ`
-- F `snowfall_sum_mm`
-- G `skin_temperature_celsius`
-- H `u_component_of_wind_10m`
-- I `v_component_of_wind_10m`
+- D `precipitation`
+- E `surface_sensible_heat_flux`
+- F `snowfall`
+- G `temperature`
+- H `u_component_of_wind`
+- I `v_component_of_wind`
 - J `runoff`
 
 2.
