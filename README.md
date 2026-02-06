@@ -1,0 +1,32 @@
+# LSTM-Attention Runoff Simulation (1980–2020)
+
+Climate-driven runoff modeling using an **LSTM + temporal attention** network with a standard **train–validation–simulation** split:
+- Train: **1980–1996**
+- Validation: **1997–2000**
+- Simulation: **2001–2020**
+
+Files:
+- `Code.py` — main script (training + rolling simulation)
+- `Data_Monthly_1980_2020.csv` — monthly climate feature dataset (1980–2020)
+
+1.
+## Data format (CSV)
+`Data_Monthly_1980_2020.csv` contains the following columns (A–J):
+- A `data`
+- B `snowmelt_sum_mm`
+- C `pet`
+- D `total_precipitation_sum_mm`
+- E `surface_sensible_heat_flux_sum_MJ`
+- F `snowfall_sum_mm`
+- G `skin_temperature_celsius`
+- H `u_component_of_wind_10m`
+- I `v_component_of_wind_10m`
+- J `runoff`
+
+2.
+Edit Code.py to set file paths / configs as needed (this repo provides the core code only).
+
+3.
+Notes on runoff data access
+Runoff observations are subject to local data-sharing restrictions and are not fully open. If you need the runoff series used in this study, please contact the authors to request access.
+
