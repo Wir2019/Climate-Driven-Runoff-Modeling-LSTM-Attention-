@@ -9,8 +9,7 @@ Files:
 - `Code.py` — main script (training + rolling simulation)
 - `Data_Monthly_1980_2020.csv` — monthly climate feature dataset (1980–2020)
 
-1.
-## Data format (CSV)
+1.## Data format (CSV)
 `Data_Monthly_1980_2020.csv` contains the following columns (A–J):
 - A `data`
 - B `snowmelt`
@@ -23,10 +22,8 @@ Files:
 - I `v_component_of_wind`
 - J `runoff`
 
-2.
-Edit Code.py to set file paths / configs as needed (this repo provides the core code only).
+2.Edit Code.py to set file paths / configs as needed (this repo provides the core code only).
 
-3.
-Notes on runoff data access
+3.Notes on runoff data access
 Runoff observations are subject to local data-sharing restrictions and are not fully open. If you need the runoff series used in this study, please contact the authors to request access.
 
