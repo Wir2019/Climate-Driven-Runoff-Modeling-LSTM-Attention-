@@ -25,5 +25,5 @@ Files:
 2.Edit Code.py to set file paths / configs as needed (this repo provides the core code only).
 
 3.Notes on runoff data access
-Runoff observations are subject to local data-sharing restrictions and are not fully open. If you need the runoff series used in this study, please contact the authors to request access.
+Due to local data-sharing policies, runoff observations and other restricted data are not publicly available.
 
